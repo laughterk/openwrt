@@ -424,7 +424,7 @@ endef
 TARGET_DEVICES += tl-wpa8630
 
 define Device/tl-wr703n-v1
-    $(Device/tplink-4mlzma)
+    $(Device/tplink-8mlzma)
     DEVICE_TITLE := TP-LINK TL-WR703N
     DEVICE_PACKAGES := kmod-usb-core kmod-usb2
     BOARDNAME := TL-WR703N
@@ -783,7 +783,7 @@ endef
 TARGET_DEVICES += tl-wr941nd-v2 tl-wr941nd-v3 tl-wr941nd-v4 tl-wr941nd-v5 tl-wr941nd-v6 tl-wr941nd-v6-cn tl-wr940n-v4
 
 define Device/tl-wr1041n-v2
-    $(Device/tplink-4mlzma)
+    $(Device/tplink-16mlzma)
     DEVICE_TITLE := TP-LINK TL-WR1041N
     BOARDNAME := TL-WR1041N-v2
     DEVICE_PROFILE := TLWR1041
